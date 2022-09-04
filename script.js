@@ -85,7 +85,7 @@ function createFavouriteDogsHTML(index, data) {
 function createAboutThisHtml() {
   let html = `
   <article class='about__container'>
-  <div class='about__banner'><img class ='about__img' src="/images/doggopc.png" alt="good dogue"></div>
+  <div class='about__banner'><img class ='about__img' src="images/doggopc.png" alt="good dogue"></div>
   <div class="about__card">
   <span class = "about__closure">&#x2715</span>
   <h3 class="about__title">What is this?</h3>
@@ -96,7 +96,7 @@ function createAboutThisHtml() {
    Thank you very much for your interest.
   </p>
   <div class='about__footer'>
-  <div class='about__me'><img class ='about__img' src="/images/yo.png" alt="me"></div>
+  <div class='about__me'><img class ='about__img' src="images/yo.png" alt="me"></div>
   <div class='about__name'>Juan Pablo Juguera<br><a href="https://juampijuguera.github.io/Portfolio/" target="_blank">Portfolio</a></div>
   </div>
 
