@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+
+    <title>AdogPi</title>
+  </head>
+  <body>
+    <section id="about-this" class="popup__container"></section>
+
+    <div class="popup__container"></div>
+    <span id="error"></span>
+
+    <div class="wrapper">
+      <header class="header__container" id="header">
+        <img class="header__logo" src="images/logo.svg" alt="AdogPi" />
+        <a href="#" class="header__about">About this</a>
+      </header>
+
+      <section class="random__container">
+        <h2 class="subtitle random__subtitle">In Adoption</h2>
+        <div id="random__dogs" class="random__dogs"></div>
+        <div class="container__btn-other">
+          <button class="btn-other">See other Dogs</button>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="subtitle subtitle-negative-margin">Adopted Dogs</h2>
+        <div id="favourites__dogs" class="favourite__dogs"></div>
+      </section>
+
+      <section id="uploadingDog" class="Uploading__container">
+        <h2 class="subtitle subtitle__upload">Upload your Dog</h2>
+        <p class="upload-desc">
+          Upload your dog photo to add it to the adoptees
+        </p>
+
+        <form id="uploadingForm">
+          <div class="form__container">
+            <input class="input" id="file" type="file" name="file" />
+            <button class="btn-upload" type="button">Upload</button>
+          </div>
+        </form>
+      </section>
+    </div>
+    <footer class="footer">
+      <a href="#header"
+        ><img class="footer__logo" src="images/logo-footer.png" alt="AdogPi"
+      /></a>
+      <a href="#" class="footer__about">About this</a>
+      <h3 class="footer__desc">
+        Created and designed by
+        <a href="https://juampijuguera.github.io/Portfolio/" target="_blank"
+          >Juan Pablo Juguera</a
+        >
+      </h3>
+    </footer>
+  </body>
+
+  <script rel="preconnect" src="script.js"></script>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</html>
